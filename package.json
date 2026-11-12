@@ -1,0 +1,14 @@
+{
+  "name": "atlas-pack-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MaxRects texture-atlas packer with pixel-exact UV remap certificates",
+  "license": "MIT",
+  "scripts": {
+    "gen": "node tools/gen-sample.mjs",
+    "verify": "node bench/verify.mjs",
+    "bench": "node bench/bench.mjs",
+    "serve": "python3 -m http.server 4173"
+  }
+}

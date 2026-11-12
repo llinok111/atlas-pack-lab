@@ -1,0 +1,76 @@
+{
+  "generatedBy": "bench/bench.mjs",
+  "node": "v24.19.0",
+  "config": {
+    "textures": 32,
+    "sourcePixels": 786432,
+    "bin": "1024x1024",
+    "padding": 2,
+    "warmup": 20000,
+    "samples": 9,
+    "iterationsPerSample": 5000
+  },
+  "algorithms": {
+    "maxrects": {
+      "samplesMs": [
+        0.029884,
+        0.02841,
+        0.028123,
+        0.027988,
+        0.028103,
+        0.028026,
+        0.028086,
+        0.029602,
+        0.027947
+      ],
+      "iterationsPerSample": 5000,
+      "warmup": 20000,
+      "coldMs": 1.5362,
+      "minMs": 0.027947,
+      "medianMs": 0.028103,
+      "p95Ms": 0.029884,
+      "stddevMs": 0.000699,
+      "rsdPct": 2.454,
+      "bins": 1,
+      "occupancy": 0.75,
+      "paddedOccupancy": 0.791016,
+      "placed": 32,
+      "unplaced": 0,
+      "hash": "68576428"
+    },
+    "shelf": {
+      "samplesMs": [
+        0.019432,
+        0.01937,
+        0.019384,
+        0.019406,
+        0.019314,
+        0.019127,
+        0.019387,
+        0.01935,
+        0.019327
+      ],
+      "iterationsPerSample": 5000,
+      "warmup": 20000,
+      "coldMs": 0.3669,
+      "minMs": 0.019127,
+      "medianMs": 0.01937,
+      "p95Ms": 0.019432,
+      "stddevMs": 0.000084,
+      "rsdPct": 0.435,
+      "bins": 2,
+      "occupancy": 0.375,
+      "paddedOccupancy": 0.395508,
+      "placed": 32,
+      "unplaced": 0,
+      "hash": "36ae4771"
+    }
+  },
+  "headline": {
+    "atlases": "1 vs 2",
+    "atlasMemoryBytes": "4194304 vs 8388608",
+    "occupancyGainPct": 100,
+    "speedRatio": 0.689,
+    "note": "speedRatio > 1 means maxrects is slower than the shelf baseline"
+  }
+}

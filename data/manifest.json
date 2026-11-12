@@ -1,0 +1,264 @@
+{
+  "seed": 12648430,
+  "binW": 1024,
+  "binH": 1024,
+  "padding": 2,
+  "textures": [
+    {
+      "id": "tex-00",
+      "w": 256,
+      "h": 128,
+      "file": "tex-00.png",
+      "bytes": 30307,
+      "sha256": "8b0153564ee400721f41a157390ff5060748bdbef43aa6fbe4b0ffb5101eeb27"
+    },
+    {
+      "id": "tex-01",
+      "w": 256,
+      "h": 128,
+      "file": "tex-01.png",
+      "bytes": 33711,
+      "sha256": "e5ef781e87ba772e9cf463741d57b533b5fa38b1c3586f08d847a32649f1d3f5"
+    },
+    {
+      "id": "tex-02",
+      "w": 256,
+      "h": 128,
+      "file": "tex-02.png",
+      "bytes": 33570,
+      "sha256": "c4c056b808c295f847664e9567c12569b6126be570e66f034cd4ebe92ec14028"
+    },
+    {
+      "id": "tex-03",
+      "w": 256,
+      "h": 128,
+      "file": "tex-03.png",
+      "bytes": 33347,
+      "sha256": "ac845dd6692527ad3ffcf49e0883b91ac00dbef8de3ff049b8ef867ae6cda587"
+    },
+    {
+      "id": "tex-04",
+      "w": 256,
+      "h": 128,
+      "file": "tex-04.png",
+      "bytes": 33892,
+      "sha256": "d341fed87f620e2945c9c5a79566705b53168e8e18f36f081852dfcf32c5f7c3"
+    },
+    {
+      "id": "tex-05",
+      "w": 256,
+      "h": 128,
+      "file": "tex-05.png",
+      "bytes": 31173,
+      "sha256": "859c1a26b2a2eb2eaf8990a28f0533c27a25392076b66b5a96b85bcea2483991"
+    },
+    {
+      "id": "tex-06",
+      "w": 256,
+      "h": 128,
+      "file": "tex-06.png",
+      "bytes": 33209,
+      "sha256": "ff76a4ac47540f0362bd65daa58d0ce7dd0aa738751aa7b543fde5cd271752fe"
+    },
+    {
+      "id": "tex-07",
+      "w": 256,
+      "h": 128,
+      "file": "tex-07.png",
+      "bytes": 33253,
+      "sha256": "be848bd54aa9cc84b05b0f8b7db2301a383a7a6ebec7071ce478e35f8da832b4"
+    },
+    {
+      "id": "tex-08",
+      "w": 128,
+      "h": 256,
+      "file": "tex-08.png",
+      "bytes": 33486,
+      "sha256": "c99d49ab7e6df0dbe3cfea52e66e2a0f7562fa02bf6632bcb935b122f9dd0757"
+    },
+    {
+      "id": "tex-09",
+      "w": 128,
+      "h": 256,
+      "file": "tex-09.png",
+      "bytes": 33899,
+      "sha256": "b9b5c27741f05d1794d89b582efdda3ca3b89cb881cba4ecff158d3d80be4359"
+    },
+    {
+      "id": "tex-10",
+      "w": 128,
+      "h": 256,
+      "file": "tex-10.png",
+      "bytes": 31611,
+      "sha256": "9f235d19a9ba381deeb6b8f2ed2bf02a4ddc85d26627968646e8c95ddabf0e53"
+    },
+    {
+      "id": "tex-11",
+      "w": 128,
+      "h": 256,
+      "file": "tex-11.png",
+      "bytes": 33462,
+      "sha256": "d7609ad39d8e767a8cb25eb670277b2c0a7f8318a62f6c7afedaef38b48918b6"
+    },
+    {
+      "id": "tex-12",
+      "w": 128,
+      "h": 256,
+      "file": "tex-12.png",
+      "bytes": 33485,
+      "sha256": "5792844578fe782bfb55bfae5167951189726816c5138547f5769128deca46ea"
+    },
+    {
+      "id": "tex-13",
+      "w": 128,
+      "h": 256,
+      "file": "tex-13.png",
+      "bytes": 33234,
+      "sha256": "28619bc5c23c81c79d9436b9b0cbb2c729b7d0f57487ef7b0dfd3a92c0e46049"
+    },
+    {
+      "id": "tex-14",
+      "w": 128,
+      "h": 256,
+      "file": "tex-14.png",
+      "bytes": 32118,
+      "sha256": "03feb91486e0f77a206ba75f2122660cdb3e10d43564dc1a5555de73f903c694"
+    },
+    {
+      "id": "tex-15",
+      "w": 128,
+      "h": 256,
+      "file": "tex-15.png",
+      "bytes": 31739,
+      "sha256": "935eec1c258a7c4eeb0c0ce027009d6bb936585fa225e69dc811e1d458d949fe"
+    },
+    {
+      "id": "tex-16",
+      "w": 128,
+      "h": 128,
+      "file": "tex-16.png",
+      "bytes": 17503,
+      "sha256": "54785fe792f54eab98a634ddf1f5172d911c21630225834efeccc324a31e012d"
+    },
+    {
+      "id": "tex-17",
+      "w": 128,
+      "h": 128,
+      "file": "tex-17.png",
+      "bytes": 17703,
+      "sha256": "7acbbbcc1286cfd8345beb272b6041c246816d7c65c23f6a8b313e7409c701bc"
+    },
+    {
+      "id": "tex-18",
+      "w": 128,
+      "h": 128,
+      "file": "tex-18.png",
+      "bytes": 17437,
+      "sha256": "ed2bd05473151d0adb0e53d729f49e31eea0b2f4f655fca88a6a178539f5575e"
+    },
+    {
+      "id": "tex-19",
+      "w": 128,
+      "h": 128,
+      "file": "tex-19.png",
+      "bytes": 17191,
+      "sha256": "287e0de1fa7ae17afa21694a01baa7c03610d151b00af89e7713b36e42b21591"
+    },
+    {
+      "id": "tex-20",
+      "w": 128,
+      "h": 128,
+      "file": "tex-20.png",
+      "bytes": 16968,
+      "sha256": "7ec311cec596c4e1407e82c081107a26ffdf0f3b44ab611cf57c56175c8bd5d7"
+    },
+    {
+      "id": "tex-21",
+      "w": 128,
+      "h": 128,
+      "file": "tex-21.png",
+      "bytes": 17314,
+      "sha256": "b8fab9853a367f612e3654723f6a22e59847d3b56a8a5fb495e5af09a314fe13"
+    },
+    {
+      "id": "tex-22",
+      "w": 128,
+      "h": 128,
+      "file": "tex-22.png",
+      "bytes": 17739,
+      "sha256": "96af75665a88f6297d91458e177fe3cb5f2dd4d0a726a73a16ea205f90e8d557"
+    },
+    {
+      "id": "tex-23",
+      "w": 128,
+      "h": 128,
+      "file": "tex-23.png",
+      "bytes": 17783,
+      "sha256": "fba7e0e8384428626faa55fe4bf357410f5522cad53d2fc0c79867e21ef99769"
+    },
+    {
+      "id": "tex-24",
+      "w": 128,
+      "h": 128,
+      "file": "tex-24.png",
+      "bytes": 17291,
+      "sha256": "5e6b134c4298c2cb559a744a2e3eb1a7ad971473533eb905394cd5d650816b53"
+    },
+    {
+      "id": "tex-25",
+      "w": 128,
+      "h": 128,
+      "file": "tex-25.png",
+      "bytes": 16916,
+      "sha256": "8dad91fbcdb91cd2695ed332770ec3fc68acc06e60f07c64571b43945453e7b6"
+    },
+    {
+      "id": "tex-26",
+      "w": 256,
+      "h": 64,
+      "file": "tex-26.png",
+      "bytes": 16993,
+      "sha256": "faa6c3d4dc40552d3e7ff7e03cd463674591e451ba98fde0745d65ab5c996345"
+    },
+    {
+      "id": "tex-27",
+      "w": 256,
+      "h": 64,
+      "file": "tex-27.png",
+      "bytes": 17632,
+      "sha256": "fedf93b4f69e9b445b492a4b4cefdd8e6b024c080f3a13ae405493545ab2554c"
+    },
+    {
+      "id": "tex-28",
+      "w": 256,
+      "h": 64,
+      "file": "tex-28.png",
+      "bytes": 17616,
+      "sha256": "c5392d3f8faf4923758615b399334cd3b92478d683a80bd30f686968bb1ee25c"
+    },
+    {
+      "id": "tex-29",
+      "w": 256,
+      "h": 64,
+      "file": "tex-29.png",
+      "bytes": 17163,
+      "sha256": "7db2219ddc1570f9300ecdd846a651ccaced524c9ad13691d4c74ebf66c6d8c3"
+    },
+    {
+      "id": "tex-30",
+      "w": 256,
+      "h": 64,
+      "file": "tex-30.png",
+      "bytes": 17172,
+      "sha256": "b346698c75517d98444922ea3f2e569aa1bf4bfea9ce8000454c56522ce3d851"
+    },
+    {
+      "id": "tex-31",
+      "w": 256,
+      "h": 64,
+      "file": "tex-31.png",
+      "bytes": 17298,
+      "sha256": "aaa77a8ee57e34da6d859cd2524d00fdbc892efd9a44804af2fd9b620b2b4595"
+    }
+  ]
+}

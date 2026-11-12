@@ -1,0 +1,72 @@
+{
+  "generatedBy": "tools/gen-sample.mjs",
+  "coreVersion": "1.0.0",
+  "binW": 1024,
+  "binH": 1024,
+  "padding": 2,
+  "algo": {
+    "maxrects": {
+      "algorithm": "maxrects",
+      "bins": 1,
+      "placed": 32,
+      "unplaced": 0,
+      "usedArea": 786432,
+      "paddedArea": 829440,
+      "binArea": 1048576,
+      "occupancy": 0.75,
+      "paddedOccupancy": 0.791015625,
+      "paddingWaste": 0.041015625,
+      "waste": 0.25,
+      "hash": "68576428",
+      "perBin": [
+        {
+          "occupancy": 0.75,
+          "placed": 32
+        }
+      ],
+      "uvRect0": {
+        "u0": 0.001953125,
+        "v0": 0.001953125,
+        "u1": 0.251953125,
+        "v1": 0.126953125
+      }
+    },
+    "shelf": {
+      "algorithm": "shelf",
+      "bins": 2,
+      "placed": 32,
+      "unplaced": 0,
+      "usedArea": 786432,
+      "paddedArea": 829440,
+      "binArea": 2097152,
+      "occupancy": 0.375,
+      "paddedOccupancy": 0.3955078125,
+      "paddingWaste": 0.0205078125,
+      "waste": 0.625,
+      "hash": "36ae4771",
+      "perBin": [
+        {
+          "occupancy": 0.703125,
+          "placed": 29
+        },
+        {
+          "occupancy": 0.046875,
+          "placed": 3
+        }
+      ],
+      "uvRect0": {
+        "u0": 0.001953125,
+        "v0": 0.001953125,
+        "u1": 0.126953125,
+        "v1": 0.251953125
+      }
+    }
+  },
+  "atlas": {
+    "file": "atlas-maxrects.png",
+    "bin": "1024x1024",
+    "bytes": 1038300,
+    "sha256": "895693ad63fce6eb1b9d6454272ba3449be3ab191bc187847f5e740464a65b6f",
+    "gutter": "edge-clamped, padding px"
+  }
+}
