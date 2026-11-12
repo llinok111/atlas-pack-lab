@@ -364,33 +364,12 @@ export function findPlacement(pack, id) {
   return null;
 }
 
-export default {
-  CORE_VERSION,
-  packMaxRects,
-  packShelf,
-  packAll,
-  validatePack,
-  planStats,
-  uvRectFor,
-  remapUv,
-  unmapUv,
-  hashPack,
-  normalizedHash,
-  hashString,
-  sortItems,
-  findPlacement,
-  mipSafeDepth,
-};
-
 /**
- * Mip-safe depth for a finished pack.
- *
- * Rule (conservative, absolute in atlas pixels): a texture may be mipped down
- * to level L while its bilinear footprint at that level, 2^L base texels, still
- * fits inside the padding gutter. padding=0 therefore allows only the base
- * level (-1), padding=2 allows level 1 (half resolution), padding=8 level 3.
- * This is a per-axis, isotropic budget; anisotropic filtering has a larger
- * footprint and is not covered.
+ * Mip-safe depth for a finished pack. Conservative rule (absolute atlas
+ * pixels): a texture may be mipped to level L while its bilinear footprint,
+ * 2^L base texels, still fits inside the padding gutter. padding=0 allows only
+ * the base level (-1), padding=2 level 1, padding=8 level 3. Isotropic only;
+ * anisotropic filtering has a larger footprint and is not covered.
  */
 export function mipSafeDepth(pack) {
   let depth = -1;
